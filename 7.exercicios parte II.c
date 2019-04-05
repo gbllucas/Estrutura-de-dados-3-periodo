@@ -1,14 +1,13 @@
 /*7. Desenvolva um algoritmo em C que quando 
-o usu·rio informar sua idade, seu nome e seu 
-n∫ de titulo em tela, se sua idade for maior que 18 e tem idade abaixo
- de 70 anos, informe mensagem que o usu·rio È obrigatÛrio votaÁ„o, e SE 
- o usu·rio informar idade menor que 
+o usu√°rio informar sua idade, seu nome e seu 
+n¬∫ de titulo em tela, se sua idade for maior que 18 e tem idade abaixo
+ de 70 anos, informe mensagem que o usu√°rio √© obrigat√≥rio vota√ß√£o, e SE 
+ o usu√°rio informar idade menor que 
 for igual a 16 e maior que 70,
-informe em tela que o voto È facultativo. */
+informe em tela que o voto √© facultativo. */
 #include<stdio.h>
 
-void vot(int a){
-int idade;
+void vot(int idade){
  if((idade > 18 )&& (idade< 70)){
  	printf("Obrigado a votar ");
  	}
@@ -35,7 +34,7 @@ scanf("%d",&titulo);
 printf("**************************** \n");
 printf("nome :%s \n",nome);
 printf("idade : %d \n",idade);
-printf("N∫ titulo :%d \n",titulo);
+printf("N¬∫ titulo :%d \n",titulo);
 vot(idade);
 
 
